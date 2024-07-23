@@ -15,7 +15,7 @@ services:
     restart: always
 
   phpmyadmin:
-    image: phpmyadmin
+    image: phpmyadmin:5.2.1-apache
     restart: always
     ports:
       - 8089:80
